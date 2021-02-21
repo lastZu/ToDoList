@@ -9,7 +9,7 @@ namespace MyToDoList.BL.Model
 	/// <summary>
 	/// Статусы задач
 	/// </summary>
-    class TaskCondition
+    public class TaskCondition
     {
         public string Name { get; set; }
     }

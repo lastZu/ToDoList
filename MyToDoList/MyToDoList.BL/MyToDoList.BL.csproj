@@ -44,16 +44,22 @@
     <Compile Include="Controller\Client\IClientController.cs" />
     <Compile Include="Controller\Tasks\ITaskObjectController.cs" />
     <Compile Include="Controller\Host\ITasksHostController.cs" />
+    <Compile Include="Controller\TestControllers\TestHostController.cs" />
+    <Compile Include="Controller\TestControllers\TestTaskController.cs" />
     <Compile Include="Controller\UserController.cs" />
     <Compile Include="Model\Client\IClient.cs" />
     <Compile Include="Model\IMuvingObject.cs" />
     <Compile Include="Model\Tasks\ITaskObject.cs" />
     <Compile Include="Model\Host\ITasksHost.cs" />
     <Compile Include="Model\Tasks\TaskCondition.cs" />
+    <Compile Include="Model\TestObjects\TestHost.cs" />
+    <Compile Include="Model\TestObjects\TextTask.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Model\Tasks\TaskFields.cs" />
+    <Compile Include="Model\Struct\TaskFields.cs" />
+    <Compile Include="View\TestAskHost.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

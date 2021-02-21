@@ -9,7 +9,7 @@ namespace MyToDoList.BL.Model
 	/// <summary>
 	/// Основные поля задачи
 	/// </summary>
-    struct TaskFields
+    public struct TaskFields
     {
         public string Name { get; set; }
 
