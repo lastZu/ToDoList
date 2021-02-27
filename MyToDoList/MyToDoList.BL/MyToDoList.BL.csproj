@@ -41,7 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Checker.cs" />
+    <Compile Include="Controller\Directors\ICreater.cs" />
+    <Compile Include="Model\Bilders\IBilder.cs" />
     <Compile Include="Controller\Client\IClientController.cs" />
+    <Compile Include="Model\Directors\IDirector.cs" />
+    <Compile Include="Model\Directors\TasksDirector.cs" />
     <Compile Include="Controller\Tasks\ITaskObjectController.cs" />
     <Compile Include="Controller\Host\ITasksHostController.cs" />
     <Compile Include="Controller\TestControllers\TestHostController.cs" />

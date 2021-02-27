@@ -7,12 +7,8 @@ using MyToDoList.BL.Model;
 
 namespace MyToDoList.BL.Controller
 {
-	public interface ITasksHostController
+	public interface ICreater
 	{
-		void Add();
-
-		void Muve();
-
-
+		IDirector appointLiable();
 	}
 }
